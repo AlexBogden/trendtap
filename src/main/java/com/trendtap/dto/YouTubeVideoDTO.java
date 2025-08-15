@@ -7,7 +7,8 @@ public class YouTubeVideoDTO {
     private String channelTitle;
     private long viewCount;
 
-    public YouTubeVideoDTO() {}
+    public YouTubeVideoDTO() {
+    }
 
     public YouTubeVideoDTO(String videoId, String title, String thumbnailUrl, String channelTitle, long viewCount) {
         this.videoId = videoId;

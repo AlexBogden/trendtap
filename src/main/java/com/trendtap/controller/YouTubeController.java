@@ -18,6 +18,7 @@ public class YouTubeController {
 
     @GetMapping("/search")
     public List<YouTubeVideoDTO> searchYoutube(@RequestParam String q) throws JsonProcessingException {
+        System.out.println("CONTROLLER received q = " + q);
         return youTubeService.search(q);
     }
 }

@@ -6,8 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class TrendtapBackendApplication {
 
-	public static void main(String[] args) {
-		SpringApplication.run(TrendtapBackendApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(TrendtapBackendApplication.class, args);
+    }
 
 }
